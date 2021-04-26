@@ -31,7 +31,7 @@ async function careers() {
     await log("    Given x number of cannonballs:");
     await log("        1. How many layers high would it be?");
     await log("        2. How many cannonballs would be used?");
-    await log("        3. And how cannonballs would be remaining?");
+    await log("        3. How many cannonballs would be remaining?");
     await log("    Implement buildCannonballPyramid(x), and return a result with numberOfLayers, numberOfCannonballsUsed, and numberOfCannonballsRemaining");
     await log("    Call testCannonballPyramid() to check your answer.");
     await log("");
