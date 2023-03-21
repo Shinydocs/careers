@@ -24,7 +24,7 @@ async function careers() {
     await log("> If you are -- you've come to the right place!");
     await log("> Do you want to work with awesome 😎 people?");
     await log("> Of course you do.");
-    await log("> Okay. Well, if you solve this puzzle you can skip the whole resume thing and schedule yourself an interview.");
+    await log("> Okay. Well, if you solve this puzzle you can contact us directly. We'd love to have a conversation and get to know you.");
     await log("> Let's do this! Leeeeeeeeeeeeeeroy!");
     await log("");
     await log("    Ben would like to build a square-based pyramid using cannonballs.");
@@ -71,7 +71,7 @@ function testCannonballPyramid() {
     itsallgood = itsallgood & verify(1000000, 143, 984984, 15016);
 
     if (itsallgood) {
-        console.log("Huzzah! 🎉 Go ahead and schedule yourself an interview at https://calendly.com/shinydocs-hr-interview/screen. Don't forget to submit your solution.");
+        console.log("Huzzah! 🎉 Go ahead and request a conversation at " + atob("cHgrY2Fubm9uYmFsbEBzaGlueWRvY3MuY29t") + ". (Don't forget to share your solution.)");
     } else {
         console.log("oops, that didn't work");
     }
